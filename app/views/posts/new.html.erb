@@ -1,0 +1,5 @@
+<h3>新規投稿</h3>
+<%= form_with model: @post, local: true do |form| %>
+  <%= render 'form', form: form %>
+  <%= form.submit value="登録する" %>
+<% end %>

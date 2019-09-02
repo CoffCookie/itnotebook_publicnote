@@ -1,0 +1,464 @@
+I, [2019-08-22T04:06:15.862130 #12950]  INFO -- : Refreshing Gem list
+I, [2019-08-22T04:06:16.561902 #12950]  INFO -- : listening on addr=0.0.0.0:8080 fd=15
+F, [2019-08-22T04:06:16.562303 #12950] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::ENOENT: No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:10:02.994070 #13032]  INFO -- : Refreshing Gem list
+I, [2019-08-22T04:10:03.668662 #13032]  INFO -- : listening on addr=0.0.0.0:8080 fd=15
+F, [2019-08-22T04:10:03.668850 #13032] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::ENOENT: No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:14:25.026581 #13109]  INFO -- : Refreshing Gem list
+F, [2019-08-22T04:14:25.675849 #13109] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::ENOENT: No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:16:52.308058 #13186]  INFO -- : Refreshing Gem list
+I, [2019-08-22T04:16:53.034014 #13186]  INFO -- : listening on addr=0.0.0.0:8080 fd=15
+I, [2019-08-22T04:16:53.107438 #13192]  INFO -- : worker=0 ready
+I, [2019-08-22T04:16:53.108604 #13186]  INFO -- : master process ready
+I, [2019-08-22T04:16:53.110099 #13194]  INFO -- : worker=1 ready
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: Already running on PID:13186 (or pid=/home/freenote/public_html/itnotebook/tmp/pids/unicorn.pid is stale)
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:30:27.305435 #13186]  INFO -- : reaped #<Process::Status: pid 13192 exit 0> worker=0
+I, [2019-08-22T04:30:27.305571 #13186]  INFO -- : reaped #<Process::Status: pid 13194 exit 0> worker=1
+I, [2019-08-22T04:30:27.305678 #13186]  INFO -- : master complete
+I, [2019-08-22T04:34:43.353824 #13500]  INFO -- : Refreshing Gem list
+F, [2019-08-22T04:34:44.057787 #13500] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::EACCES: Permission denied - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:39:40.672971 #13581]  INFO -- : Refreshing Gem list
+F, [2019-08-22T04:39:41.337771 #13581] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::EACCES: Permission denied - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:40:35.080508 #13625]  INFO -- : Refreshing Gem list
+F, [2019-08-22T04:40:35.720385 #13625] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::EACCES: Permission denied - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:43:07.783659 #13665]  INFO -- : Refreshing Gem list
+I, [2019-08-22T04:43:08.509925 #13665]  INFO -- : listening on addr=/var/run/unicorn/unicorn.sock fd=15
+I, [2019-08-22T04:43:08.566169 #13671]  INFO -- : worker=0 ready
+I, [2019-08-22T04:43:08.568723 #13665]  INFO -- : master process ready
+I, [2019-08-22T04:43:08.570122 #13673]  INFO -- : worker=1 ready
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: Already running on PID:13665 (or pid=/home/freenote/public_html/itnotebook/tmp/pids/unicorn.pid is stale)
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: Already running on PID:13665 (or pid=/home/freenote/public_html/itnotebook/tmp/pids/unicorn.pid is stale)
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:52:28.047576 #13665]  INFO -- : reaped #<Process::Status: pid 13671 exit 0> worker=0
+I, [2019-08-22T04:52:28.047696 #13665]  INFO -- : reaped #<Process::Status: pid 13673 exit 0> worker=1
+I, [2019-08-22T04:52:28.047807 #13665]  INFO -- : master complete
+I, [2019-08-22T04:52:32.382715 #13972]  INFO -- : Refreshing Gem list
+F, [2019-08-22T04:52:33.142768 #13972] FATAL -- : error adding listener addr=/var/run/unicorn
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: socket=/var/run/unicorn specified but it is not a socket!
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:116:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T04:54:23.078394 #14050]  INFO -- : Refreshing Gem list
+I, [2019-08-22T04:54:23.724429 #14050]  INFO -- : unlinking existing socket=/var/run/unicorn/unicorn.sock
+I, [2019-08-22T04:54:23.724709 #14050]  INFO -- : listening on addr=/var/run/unicorn/unicorn.sock fd=15
+I, [2019-08-22T04:54:23.792883 #14050]  INFO -- : master process ready
+I, [2019-08-22T04:54:23.792927 #14056]  INFO -- : worker=0 ready
+I, [2019-08-22T04:54:23.799373 #14057]  INFO -- : worker=1 ready
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: Already running on PID:14050 (or pid=/home/freenote/public_html/itnotebook/tmp/pids/unicorn.pid is stale)
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-22T05:00:49.916463 #14050]  INFO -- : reaped #<Process::Status: pid 14056 exit 0> worker=0
+I, [2019-08-22T05:00:49.916599 #14050]  INFO -- : reaped #<Process::Status: pid 14057 exit 0> worker=1
+I, [2019-08-22T05:00:49.916719 #14050]  INFO -- : master complete
+I, [2019-08-24T04:31:58.535779 #28998]  INFO -- : Refreshing Gem list
+I, [2019-08-24T04:31:59.335603 #28998]  INFO -- : unlinking existing socket=/var/run/unicorn/unicorn.sock
+I, [2019-08-24T04:31:59.335785 #28998]  INFO -- : listening on addr=/var/run/unicorn/unicorn.sock fd=15
+I, [2019-08-24T04:31:59.395268 #29004]  INFO -- : worker=0 ready
+I, [2019-08-24T04:31:59.395387 #28998]  INFO -- : master process ready
+I, [2019-08-24T04:31:59.399197 #29006]  INFO -- : worker=1 ready
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+ArgumentError: Already running on PID:28998 (or pid=/home/freenote/public_html/itnotebook/tmp/pids/unicorn.pid is stale)
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid='
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:20:27.472769 #3854]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+NoMethodError: undefined method `web_console' for #<Rails::Application::Configuration:0x00005628d2ae2a58>
+Did you mean?  console
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing'
+  /home/freenote/public_html/freenote/config/application.rb:14:in `<class:Application>'
+  /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+  /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:28:43.424312 #3938]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+NoMethodError: undefined method `web_console' for #<Rails::Application::Configuration:0x000055cc2782e7d8>
+Did you mean?  console
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing'
+  /home/freenote/public_html/freenote/config/application.rb:14:in `<class:Application>'
+  /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+  /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:29:08.475176 #4022]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+NoMethodError: undefined method `web_console' for #<Rails::Application::Configuration:0x000055b09916b378>
+Did you mean?  console
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing'
+  /home/freenote/public_html/freenote/config/application.rb:14:in `<class:Application>'
+  /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+  /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:39:55.487734 #4397]  INFO -- : Refreshing Gem list
+F, [2019-08-27T02:39:56.482750 #4397] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+Errno::ENOENT: No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:45:09.548761 #4731]  INFO -- : Refreshing Gem list
+/home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing': undefined method `web_console' for #<Rails::Application::Configuration:0x0000560834a272a8> (NoMethodError)
+Did you mean?  console
+	from /home/freenote/public_html/freenote/config/application.rb:14:in `<class:Application>'
+	from /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+	from /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+	from /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+	from /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+	from config.ru:4:in `require_relative'
+	from config.ru:4:in `block in <main>'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+	from config.ru:1:in `new'
+	from config.ru:1:in `<main>'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `load'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `<main>'
+I, [2019-08-27T02:49:16.381011 #4802]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+NoMethodError: undefined method `web_console' for #<Rails::Application::Configuration:0x000056097b903cf8>
+Did you mean?  console
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing'
+  /home/freenote/public_html/freenote/config/application.rb:14:in `<class:Application>'
+  /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+  /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:53:58.406088 #4963]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+SyntaxError: /home/freenote/public_html/freenote/config/application.rb:21: syntax error, unexpected end-of-input, expecting end
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-27T02:57:16.652550 #5054]  INFO -- : Refreshing Gem list
+bundler: failed to load command: unicorn_rails (/home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails)
+NoMethodError: undefined method `web_console' for #<Rails::Application::Configuration:0x0000558136e3fe60>
+Did you mean?  console
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/railtie/configuration.rb:97:in `method_missing'
+  /home/freenote/public_html/freenote/config/application.rb:15:in `<class:Application>'
+  /home/freenote/public_html/freenote/config/application.rb:10:in `<module:Freenote>'
+  /home/freenote/public_html/freenote/config/application.rb:9:in `<top (required)>'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `require_relative'
+  /home/freenote/public_html/freenote/config/environment.rb:2:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `eval'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn.rb:56:in `block in builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:139:in `block in rails_builder'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:752:in `build_app!'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:129:in `start'
+  /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn_rails:209:in `<top (required)>'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `load'
+  /home/freenote/.rbenv/versions/2.6.3/bin/unicorn_rails:23:in `<top (required)>'
+I, [2019-08-29T04:29:58.766040 #2192]  INFO -- : Refreshing Gem list
+F, [2019-08-29T04:29:59.791583 #2192] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+/home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize': No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock (Errno::ENOENT)
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `load'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `<main>'
+I, [2019-08-29T04:32:40.114242 #2414]  INFO -- : Refreshing Gem list
+F, [2019-08-29T04:32:40.806354 #2414] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+/home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize': No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock (Errno::ENOENT)
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `load'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `<main>'
+I, [2019-08-29T04:33:53.734613 #2512]  INFO -- : Refreshing Gem list
+F, [2019-08-29T04:33:54.391953 #2512] FATAL -- : error adding listener addr=/var/run/unicorn/unicorn.sock
+/home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `initialize': No such file or directory - connect(2) for /var/run/unicorn/unicorn.sock (Errno::ENOENT)
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `each'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:130:in `start'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `load'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `<main>'
+I, [2019-08-29T04:42:45.621363 #2844]  INFO -- : Refreshing Gem list
+I, [2019-08-29T04:42:46.380729 #2844]  INFO -- : listening on addr=/home/freenote/public_html/freenote/tmp/sockets/unicorn.sock fd=15
+I, [2019-08-29T04:42:46.883719 #2844]  INFO -- : master process ready
+I, [2019-08-29T04:42:46.883660 #2851]  INFO -- : worker=0 ready
+I, [2019-08-29T04:42:46.885311 #2852]  INFO -- : worker=1 ready
+I, [2019-08-29T04:46:53.652236 #2844]  INFO -- : reaped #<Process::Status: pid 2851 exit 0> worker=0
+I, [2019-08-29T04:46:53.652346 #2844]  INFO -- : reaped #<Process::Status: pid 2852 exit 0> worker=1
+I, [2019-08-29T04:46:53.652417 #2844]  INFO -- : master complete
+I, [2019-08-29T05:07:59.972218 #3222]  INFO -- : Refreshing Gem list
+I, [2019-08-29T05:08:00.727368 #3222]  INFO -- : unlinking existing socket=/home/freenote/public_html/freenote/tmp/sockets/unicorn.sock
+I, [2019-08-29T05:08:00.727741 #3222]  INFO -- : listening on addr=/home/freenote/public_html/freenote/tmp/sockets/unicorn.sock fd=15
+I, [2019-08-29T05:08:00.850319 #3222]  INFO -- : master process ready
+I, [2019-08-29T05:08:00.851006 #3228]  INFO -- : worker=0 ready
+I, [2019-08-29T05:08:00.854587 #3229]  INFO -- : worker=1 ready
+182.169.41.11 - - [29/Aug/2019:05:08:07 +0900] "GET / HTTP/1.0" 500 53245 0.3583
+/home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:195:in `pid=': Already running on PID:3222 (or pid=/home/freenote/public_html/freenote/tmp/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/lib/unicorn/http_server.rb:127:in `start'
+	from /home/freenote/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/unicorn-5.2.0/bin/unicorn:126:in `<top (required)>'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `load'
+	from /home/freenote/.rbenv/versions/2.6.3/bin/unicorn:23:in `<main>'
+I, [2019-08-29T05:41:44.405303 #3678]  INFO -- : executing ["/home/freenote/.rbenv/versions/2.6.3/bin/unicorn", "-c", "/home/freenote/public_html/freenote/config/unicorn.rb", "-E", "development", "-D", {15=>#<Kgio::UNIXServer:/home/freenote/public_html/freenote/tmp/sockets/unicorn.sock>}] (in /home/freenote/public_html/freenote)
+I, [2019-08-29T05:41:44.405518 #3678]  INFO -- : forked child re-executing...
+I, [2019-08-29T05:41:44.741576 #3678]  INFO -- : inherited addr=/home/freenote/public_html/freenote/tmp/sockets/unicorn.sock fd=15
+I, [2019-08-29T05:41:44.741914 #3678]  INFO -- : Refreshing Gem list
+I, [2019-08-29T05:41:45.566162 #3684]  INFO -- : worker=0 ready
+I, [2019-08-29T05:41:45.579009 #3686]  INFO -- : worker=1 ready
+I, [2019-08-29T05:41:45.566523 #3678]  INFO -- : master process ready
+I, [2019-08-29T05:41:45.669957 #3222]  INFO -- : reaped #<Process::Status: pid 3228 exit 0> worker=0
+I, [2019-08-29T05:41:45.670152 #3222]  INFO -- : reaped #<Process::Status: pid 3229 exit 0> worker=1
+I, [2019-08-29T05:41:45.670190 #3222]  INFO -- : master complete
+182.169.41.11 - - [29/Aug/2019:05:41:49 +0900] "GET / HTTP/1.0" 200 - 0.6217
+182.169.41.11 - - [29/Aug/2019:05:54:45 +0900] "GET /users/index HTTP/1.0" 200 - 0.4207
+182.169.41.11 - - [29/Aug/2019:05:54:46 +0900] "GET / HTTP/1.0" 200 - 0.0289
+182.169.41.11 - - [29/Aug/2019:16:37:43 +0900] "GET / HTTP/1.0" 200 - 0.0384
+182.169.41.11 - - [29/Aug/2019:16:37:59 +0900] "GET /users/index HTTP/1.0" 200 - 0.0371
+182.169.41.11 - - [29/Aug/2019:16:38:09 +0900] "POST /users/login HTTP/1.0" 302 - 0.0261
+182.169.41.11 - - [29/Aug/2019:16:38:09 +0900] "GET / HTTP/1.0" 200 - 0.0305
+182.169.41.11 - - [29/Aug/2019:16:38:14 +0900] "GET /users/index HTTP/1.0" 200 - 0.0242
+182.169.41.11 - - [29/Aug/2019:16:39:28 +0900] "GET /.env HTTP/1.0" 404 29023 0.1128
+182.169.41.11 - - [29/Aug/2019:16:39:38 +0900] "GET / HTTP/1.0" 200 - 0.0409
+182.169.41.11 - - [29/Aug/2019:16:39:53 +0900] "GET /kk HTTP/1.0" 404 29021 0.0487
+182.169.41.11 - - [29/Aug/2019:17:07:07 +0900] "GET / HTTP/1.0" 200 - 0.0256
+182.169.41.11 - - [29/Aug/2019:17:14:45 +0900] "GET / HTTP/1.0" 200 - 0.0303
+182.169.41.11 - - [29/Aug/2019:17:14:48 +0900] "GET / HTTP/1.0" 200 - 0.0284
+182.169.41.11 - - [29/Aug/2019:17:14:51 +0900] "GET / HTTP/1.0" 200 - 0.0524
+182.169.41.11 - - [29/Aug/2019:17:15:21 +0900] "GET / HTTP/1.0" 200 - 0.0335
+182.169.41.11 - - [29/Aug/2019:17:15:21 +0900] "GET /FreeNote_logo-b54af9f26b463f39800b5c814a853fe312a2b2ca4f65df47e965c50882b20dd2.png HTTP/1.0" 200 9689 0.0045
+182.169.41.11 - - [29/Aug/2019:17:15:21 +0900] "GET /comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0029
+182.169.41.11 - - [29/Aug/2019:17:15:21 +0900] "GET /home.self-0c29090c2f711f214a0322fdfaee6cb0ecbd6ba2a15360d70ce9a4413b0b77dc.css?body=1 HTTP/1.0" 200 800 0.0021
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0023
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0041
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /application.self-6f34de98f236897f649368ddc35a72f10050e8c807e5741be8fbe1e7c85698fa.css?body=1 HTTP/1.0" 200 1016 0.0026
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0030
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0032
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0025
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 200 635 0.0050
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 200 293 0.0029
+182.169.41.11 - - [29/Aug/2019:17:15:22 +0900] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0268
+182.169.41.11 - - [29/Aug/2019:17:24:05 +0900] "GET / HTTP/1.0" 200 - 0.0268
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 304 - 0.0029
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 304 - 0.0027
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1 HTTP/1.0" 304 - 0.0024
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /home.self-0c29090c2f711f214a0322fdfaee6cb0ecbd6ba2a15360d70ce9a4413b0b77dc.css?body=1 HTTP/1.0" 304 - 0.0065
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 304 - 0.0021
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /rails-ujs.self-2b8935521e2301b06b45bd42e623eb0c0acf76c3a6ba383b7429c6a2884f8c23.js?body=1 HTTP/1.0" 304 - 0.0022
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /activestorage.self-1ed4604ac2170045f1ffca4edb81a75246661555e4f9cf682bb8a21825e32e1c.js?body=1 HTTP/1.0" 304 - 0.0022
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /action_cable.self-69fddfcddf4fdef9828648f9330d6ce108b93b82b0b8d3affffc59a114853451.js?body=1 HTTP/1.0" 304 - 0.0048
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /application.self-6f34de98f236897f649368ddc35a72f10050e8c807e5741be8fbe1e7c85698fa.css?body=1 HTTP/1.0" 304 - 0.0060
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /cable.self-8484513823f404ed0c0f039f75243bfdede7af7919dda65f2e66391252443ce9.js?body=1 HTTP/1.0" 304 - 0.0031
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0036
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0022
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0036
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 304 - 0.0046
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /application.self-66347cf0a4cb1f26f76868b4697a9eee457c8c3a6da80c6fdd76ff77e911715e.js?body=1 HTTP/1.0" 304 - 0.0063
+182.169.41.11 - - [29/Aug/2019:17:24:06 +0900] "GET /FreeNote_logo-b54af9f26b463f39800b5c814a853fe312a2b2ca4f65df47e965c50882b20dd2.png HTTP/1.0" 200 9689 0.0037
+182.169.41.11 - - [29/Aug/2019:17:51:30 +0900] "GET / HTTP/1.0" 200 - 0.0472
+182.169.41.11 - - [29/Aug/2019:17:51:34 +0900] "GET / HTTP/1.0" 200 - 0.0262
+182.169.41.11 - - [29/Aug/2019:17:51:35 +0900] "GET / HTTP/1.0" 200 - 0.0574
+182.169.41.11 - - [29/Aug/2019:17:51:36 +0900] "GET / HTTP/1.0" 200 - 0.0315

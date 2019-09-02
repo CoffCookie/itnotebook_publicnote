@@ -1,0 +1,18 @@
+
+  <% @posts.each do |post| %>
+    <table border="1" class="blogtable">
+        <tr>
+          <td class="blogcontent">
+            <%  url = post_bg_image(post) %>
+            <%= image_tag url %>
+            <%= simple_format(post.content) %>
+          </td>
+        </tr>
+        <tr>
+            <td class="blogdate" align="right">
+                <%= post.created_at.strftime("%Y-%m-%d") %>
+            </td>
+        </tr>
+    </table>
+  <% end %>
+  <%= paginate @posts %>

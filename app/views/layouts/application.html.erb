@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NoteBook</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container">
+        <header>
+            <h2>NoteBook</h2>
+        </header>
+
+        <div class="contents">
+          <div class="main">
+              <%= yield %>
+          </div>
+          <div class="sub">
+              <dl>
+                <dt>メニュー</dt>
+                <ul><li><%= link_to("Notebook", "https://itnotebook.herokuapp.com/") %></li></ul>
+                <ul><li><%= link_to("[Notebook]ソースコード","https://github.com/CoffCookie/itnotebook.git") %></li></ul>
+		        <% if session[:user_id] %>
+                  <ul><li><%= link_to("管理室","/posts/admin") %></li></ul>
+                  <% else %>
+                  <ul><li><%= link_to("管理室","/users/index") %></li></ul>
+                <% end %>
+              </dl>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
